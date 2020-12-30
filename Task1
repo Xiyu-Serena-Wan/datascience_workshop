@@ -1,0 +1,10 @@
+# matplotlib.pyplot.scatter
+# matplotlib.pyplot.xlim
+Calling this function with no arguments (e.g. xlim()) is the pyplot equivalent of calling get_xlim on the current axes. Calling this function with arguments is the pyplot equivalent of calling set_xlim on the current axes. All arguments are passed though.
+# np.meshgrid
+# np.linspace
+# LogisticRegression.predict_proba
+# LogisticRegression.predict
+# np.c_
+# x_grid.ravel()
+# matplotlib.pyplot.contour(*args, data=None, **kwargs)
