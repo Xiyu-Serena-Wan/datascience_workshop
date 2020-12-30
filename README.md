@@ -1,3 +1,2 @@
-# Xiyu-Serena-Wan.github.io
-try to make each month counts
-# 12月总结
+# 天池龙珠计划笔记
+
