@@ -27,7 +27,7 @@ Calling this function with no arguments (e.g. xlim()) is the pyplot equivalent o
   箱形图（或盒须图）以一种利于变量之间比较或不同分类变量层次之间比较的方式来展示定量数据的分布。图中矩形框显示数据集的上下四分位数，而矩形框中延伸出的线段（触须）则用于显示其余数据的分布位置，剩下超过上下四分位间距的数据点则被视为“异常值”。
   saturation：控制用于绘制颜色的原始饱和度的比例。通常大幅填充在轻微不饱和的颜色下看起来更好，如果您希望绘图颜色与输入颜色规格完美匹配可将其设置为1。
   palette：调色板名称
-- add_subplot ***Add an Axes to the figure as part of a subplot arrangement.
+- add_subplot * *Add an Axes to the figure as part of a subplot arrangement.
 - kwargs and args: https://zhuanlan.zhihu.com/p/50804195
-- iris_all_class0 = iris_all[iris_all['target']==0].values *在返回向量时多加了target维
+- iris_all_class0 = iris_all[iris_all['target']==0].values * *在返回向量时多加了target维
  
