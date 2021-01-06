@@ -3,15 +3,21 @@
 - matplotlib.pyplot.xlim
 Calling this function with no arguments (e.g. xlim()) is the pyplot equivalent of calling get_xlim on the current axes. Calling this function with arguments is the pyplot equivalent of calling set_xlim on the current axes. All arguments are passed though.
 - matplotlib.pyplot.contour(*args, data=None, **kwargs)
+https://matplotlib.org/3.3.3/api/_as_gen/matplotlib.pyplot.contour.html?highlight=contour#matplotlib.pyplot.contour
 
-- np.meshgrid
+- np.meshgrid https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html?highlight=meshgrid#numpy.meshgrid
 - np.linspace
-- np.c_
-- np.ravel()
+- np.c_ https://blog.csdn.net/yj1556492839/article/details/79031693 
+以及 https://blog.csdn.net/sdu_hao/article/details/83868168?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromBaidu-1.control&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromBaidu-1.control
+- np.ravel() 压平array至1维 https://numpy.org/doc/stable/reference/generated/numpy.ravel.html?highlight=ravel#numpy.ravel
 
 - LogisticRegression.predict_proba
 - LogisticRegression.predict
 - https://zhuanlan.zhihu.com/p/28408516
+
+##### 0106的补充：Why the contour map of the specific samples is the decision boundary?
+Source: https://datascience.stackexchange.com/questions/49573/how-to-plot-logistic-regression-decision-boundary
+
 
 ###### notes in 1231
 - what do targets mean? Names of the clusters?
