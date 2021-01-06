@@ -14,4 +14,36 @@ fit to (the conditional likelihood of) the data**, even if the resulting paramet
 > - GNB and Logistic Regression converge toward their asymptotic accuracies at different rates. As Ng & Jordan (2002) show, GNB parameter estimates converge toward their asymptotic values in order **logn** examples, where n is the dimension of X. In contrast, Logistic Regression parameter estimates converge more slowly, requiring order **n** examples. 
 > - The authors also show that in several data sets Logistic Regression outperforms GNB when many training examples are available, but GNB outperforms Logistic Regression when training data is scarce.
 
-2. #### 
+2. #### fit(X, y, sample_weight=None)
+Fit Gaussian Naive Bayes according to X, y
+
+Parameters
+X: array-like of shape (n_samples, n_features) In here, n_samples=150, n_features=4
+Training vectors, where n_samples is the number of samples and n_features is the number of features.
+
+y: array-like of shape (n_samples,) In here, n_samples=150, one-dimension
+Target values.
+
+sample_weight: array-like of shape (n_samples,), default=None
+Weights applied to individual samples (1. for unweighted).
+
+Returns
+self:object
+
+3. #### predict(X)
+Perform classification on an array of test vectors X.
+
+Parameters
+X: array-like of shape (n_samples, n_features)
+
+Returns
+C: ndarray of shape (n_samples,)
+Predicted target values for X
+
+4. #### x.shape = (10,1024), x[0].shape, and x.shape[0]
+
+x is a 2D array, which can also be looked upon as an array of 1D arrays, having 10 rows and 1024 columns. x[0] is the first 1D sub-array which has 1024 elements (there are 10 such 1D sub-arrays in x), and x[0].shape gives the shape of that sub-array, which happens to be a 1-tuple - (1024, ).
+
+On the other hand, x.shape is a 2-tuple which represents the shape of x, which in this case is (10, 1024). x.shape[0] gives the first element in that tuple, which is 10.
+
+5. #### 
