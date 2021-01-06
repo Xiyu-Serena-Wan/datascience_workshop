@@ -1,4 +1,4 @@
-- #### 为什么有了logistic regression，还要学习朴素贝叶斯？ 
+1. #### 为什么有了logistic regression，还要学习朴素贝叶斯？ 
 
 Source: https://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf
 > ##### Relationship Between Naive Bayes Classifiers and Logistic Regression
@@ -14,3 +14,4 @@ fit to (the conditional likelihood of) the data**, even if the resulting paramet
 > - GNB and Logistic Regression converge toward their asymptotic accuracies at different rates. As Ng & Jordan (2002) show, GNB parameter estimates converge toward their asymptotic values in order **logn** examples, where n is the dimension of X. In contrast, Logistic Regression parameter estimates converge more slowly, requiring order **n** examples. 
 > - The authors also show that in several data sets Logistic Regression outperforms GNB when many training examples are available, but GNB outperforms Logistic Regression when training data is scarce.
 
+2. #### 
