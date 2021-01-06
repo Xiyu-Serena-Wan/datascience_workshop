@@ -1,5 +1,7 @@
-为什么有了logistic regression，还要学习朴素贝叶斯？
-> To summarize, Logistic Regression directly estimates the parameters of P(Y|X),
+- 为什么有了logistic regression，还要学习朴素贝叶斯？
+\n Source: https://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf
+> ##### 4 Relationship Between Naive Bayes Classifiers and Logistic Regression
+To summarize, Logistic Regression directly estimates the parameters of P(Y|X),
 whereas Naive Bayes directly estimates parameters for P(Y) and P(X|Y). We often call the former a discriminative classifier, and the latter a generative classifier.
 We showed above that the assumptions of one variant of a Gaussian Naive
 Bayes classifier imply the parametric form of P(Y|X) used in Logistic Regression. Furthermore, we showed that the parameters wi
