@@ -1,3 +1,4 @@
+#### 0106
 1. #### 为什么有了logistic regression，还要学习朴素贝叶斯？ 
 
 Source: https://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf
@@ -46,4 +47,13 @@ x is a 2D array, which can also be looked upon as an array of 1D arrays, having 
 
 On the other hand, x.shape is a 2-tuple which represents the shape of x, which in this case is (10, 1024). x.shape[0] gives the first element in that tuple, which is 10.
 
-5. #### 
+#### 0107
+1. ##### np.random.RandomState(1)
+It's a class, containing functions to create arrays with random numbers. The paramenter 1 means that the numbers will not change everytime it generates.
+2. ##### What does [:,:-1] and [:,-1] mean?
+[:,:-1]: This will take all rows and all but the last column.
+
+[:,-1]: This will take all rows and the last column.
+
+: denotes "all", and -1 in indexing means the last row/column.
+3. ##### logistic 分类二元/大型，朴素贝叶斯分类多元/小型
