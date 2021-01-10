@@ -1,3 +1,4 @@
+##### 0109
 - **Cross-Validation（交叉验证** https://zhuanlan.zhihu.com/p/24825503
 
   每次的测试集将不再只包含一个数据，而是多个，具体数目将根据K的选取决定。这个方法折中了LOOCV方法，即（Leave-one-out cross-validation）和The Validation Set Approach。
@@ -15,4 +16,16 @@
 4. 计算两个向量的余弦相似度，值越大就表示越相似。
 
 后面的作图方式和task1，2类似，无需赘述。
+##### 0110
+- **iris dataset**: divided into "data" (four dimension, 150 datas) and "target" (every data has a corresponding target)
 
+- knn, naive bayes, and logistic regressions... the methods are radically different but the procedures, dividing the dataset to a training set and a testing set,     are the same. 
+
+- **a small serendipity about the parameter random_state** https://www.cnblogs.com/Yanjy-OnlyOne/p/11288098.html
+When I compared three different way, including KNN, LR, and NB, strange things happened. Sometimes, in LR, an error occurred, saying "lbfgs failed to converge (status=1): STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.", sometimes there was no error. Also, the probability of the prediction varies. The results are 1.0, 0.967 or 0.933. I wondered which parameter affected the probability. After changing some parameters, I discovered that random_state is the one that disturbs the result. Here is its definition:
+> random_state: *int, RandomState instance or None, default=None*
+> Controls the shuffling applied to the data before applying the split. Pass an int for reproducible output across multiple function calls. 
+
+It means that if *random_state=None*, then everytime I run the codes, the data will be shuffled in different ways. But if I give an integrator to *random_state*, the way that shuffles the data will not change. So, I set a number, and steady the result. 
+
+See more on https://scikit-learn.org/stable/glossary.html#term-random_state and https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html?highlight=train_test_split#sklearn.model_selection.train_test_split
