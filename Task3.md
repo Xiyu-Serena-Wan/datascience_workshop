@@ -29,3 +29,25 @@ When I compared three different way, including KNN, LR, and NB, strange things h
 It means that if *random_state=None*, then everytime I run the codes, the data will be shuffled in different ways. But if I give an integrator to *random_state*, the way that shuffles the data will not change. So, I set a number, and steady the result. 
 
 See more on https://scikit-learn.org/stable/glossary.html#term-random_state and https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html?highlight=train_test_split#sklearn.model_selection.train_test_split
+
+##### 0111
+\> a = np.array([[1,4],[3,1]])
+
+\> np.sort(a)                # sort along the last axis
+
+array([[1, 4],
+
+   [1, 3]])
+
+\> np.sort(a, axis=None)     # sort the flattened array
+
+array([1, 1, 3, 4])
+
+\> np.sort(a, axis=0)        # sort along the first axis
+
+array([[1, 1],
+
+   [3, 4]])
+
+numpy.newaxis: A convenient alias for None, useful for indexing arrays.
+
