@@ -57,3 +57,17 @@ https://github.com/Xiyu-Serena-Wan/datascience_workshop/issues/1#issuecomment-75
 **numpy.sin(x)**
 
 x:array_like  Angle, in radians (2 \pi rad equals 360 degrees).
+
+**enumerate**  https://www.runoob.com/python/python-func-enumerate.html
+
+enumerate() 函数用于将一个可遍历的数据对象(如列表、元组或字符串)组合为一个索引序列，同时列出数据和数据下标，一般用在 for 循环当中。
+
+**KNeighborsRegressor** https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html?highlight=kneighborsregressor#sklearn.neighbors.KNeighborsRegressor
+
+之前是**KNeighborsClassifer**https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html?highlight=kneighborsregressor
+
+vs: https://stackoverflow.com/questions/52794075/sklearn-kneighborsregressor-vs-kneighborsclassifer
+
+**matplotlib.pyplot.axis**https://matplotlib.org/3.3.3/api/_as_gen/matplotlib.pyplot.axis.html?highlight=axis%20tight
+
+**matplotlib.tight_layout**https://matplotlib.org/3.3.3/api/tight_layout_api.html?highlight=tight_layout#module-matplotlib.tight_layout
