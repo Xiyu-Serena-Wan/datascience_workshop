@@ -51,3 +51,9 @@ array([[1, 1],
 
 numpy.newaxis: A convenient alias for None, useful for indexing arrays.
 
+**An example here**      
+https://github.com/Xiyu-Serena-Wan/datascience_workshop/issues/1#issuecomment-757886581
+
+**numpy.sin(x)**
+
+x:array_like  Angle, in radians (2 \pi rad equals 360 degrees).
