@@ -53,6 +53,7 @@ numpy.newaxis: A convenient alias for None, useful for indexing arrays.
 
 **An example here**      
 https://github.com/Xiyu-Serena-Wan/datascience_workshop/issues/1#issuecomment-757886581
+numpy 中的索引 https://zhuanlan.zhihu.com/p/123858781
 
 **numpy.sin(x)**
 
@@ -71,3 +72,35 @@ vs: https://stackoverflow.com/questions/52794075/sklearn-kneighborsregressor-vs-
 **matplotlib.pyplot.axis**https://matplotlib.org/3.3.3/api/_as_gen/matplotlib.pyplot.axis.html?highlight=axis%20tight
 
 **matplotlib.tight_layout**https://matplotlib.org/3.3.3/api/tight_layout_api.html?highlight=tight_layout#module-matplotlib.tight_layout
+
+##### 0112
+horse-colic: https://archive.ics.uci.edu/ml/datasets/Horse+Colic
+
+Abstract: Well documented attributes; 368 instances with 28 attributes (continuous, discrete, and nominal); 30% missing values
+
+**KNNimputer** https://scikit-learn.org/stable/modules/generated/sklearn.impute.KNNImputer.html?highlight=knnimputer#sklearn.impute.KNNImputer
+
+https://blog.csdn.net/sinat_33264502/article/details/108340942?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control
+
+加权的方式与欧式距离无关，只是最近两个点（k=2）的对应位置的加权平均
+
+**pd.read_csv()** https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
+
+**isnull / sum / count in Python** https://zhuanlan.zhihu.com/p/36054489
+
+isnull()： only every NaN is counted as 1, other elements are counted as 0
+
+**numpy.isnan** https://numpy.org/doc/stable/reference/generated/numpy.isnan.html?highlight=isnan
+
+**DataFrame.values**
+Return a Numpy representation of the DataFrame.
+
+Only the values in the DataFrame will be returned, the axes labels will be removed.
+
+**pandas.DataFrame.transform**
+DataFrame.transform(func, axis=0, *args, \*\*kwargs)
+Call func on self producing a DataFrame with transformed values.
+
+Produced DataFrame will have same axis length as self.
+
+**pipeline** https://sklearn.apachecn.org/docs/master/38.html
