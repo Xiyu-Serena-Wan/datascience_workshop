@@ -104,3 +104,9 @@ Call func on self producing a DataFrame with transformed values.
 Produced DataFrame will have same axis length as self.
 
 **pipeline** https://sklearn.apachecn.org/docs/master/38.html
+
+#### 0113
+numpy.append(arr, values, axis=None)[source]
+Append values to the end of an array.
+
+
